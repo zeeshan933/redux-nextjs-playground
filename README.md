@@ -4,7 +4,7 @@ An interactive educational playground built to master state management, stores, 
 
 This project goes beyond basic implementation, featuring a sleek UI to visually test action dispatching, async thunks, and live state updates.
 
-## 🚀 Features
+## Features
 
 * **Interactive Action Playground:** Dispatch success, danger, warning, and info alerts with a single click.
 * **Live DevTools Inspector:** Monitor the real-time Redux state tree and action log stream directly within the UI.
@@ -15,7 +15,7 @@ This project goes beyond basic implementation, featuring a sleek UI to visually 
   3. Reducers, Actions & Types
   4. Live DevTools Inspector
 
-## 📸 Previews
+## Previews
 
 **Interactive Action Dispatcher**  
 Test out different alert states, customize auto-dismiss timeouts, and see the exact dispatch code working under the hood.
@@ -25,14 +25,14 @@ Test out different alert states, customize auto-dismiss timeouts, and see the ex
 Easily switch between Redux learning concepts and use the quick-action buttons to test state immutability and alert stacking.
 ![Redux Playground Modules](Preview2.png)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Framework:** [Next.js](https://nextjs.org/) (App Router)
 * **State Management:** [Redux Toolkit](https://redux-toolkit.js.org/) & `react-redux`
 * **Styling:** Custom Dark Mode UI
 * **Language:** TypeScript / JavaScript
 
-## 💻 Getting Started
+## Getting Started
 
 First, clone the repository and install the dependencies:
 
@@ -52,7 +52,7 @@ Run the development server:
 
 Open ``http://localhost:3000`` with your browser to explore the Redux playground.
 
-## 📂 Project Structure
+## Project Structure
 
 **app/**: Next.js App Router configuration and page routes.
 
