@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚛️ Redux Toolkit in Next.js: Interactive Playground
 
-## Getting Started
+An interactive educational playground built to master state management, stores, actions, and reducers using **Redux Toolkit** within the modern **Next.js App Router** architecture.
 
-First, run the development server:
+This project goes beyond basic implementation, featuring a sleek UI to visually test action dispatching, async thunks, and live state updates.
+
+## 🚀 Features
+
+* **Interactive Action Playground:** Dispatch success, danger, warning, and info alerts with a single click.
+* **Live DevTools Inspector:** Monitor the real-time Redux state tree and action log stream directly within the UI.
+* **Async Dispatching (Redux Thunk):** Implements auto-dismissing toast notifications with custom timeouts and UUID generation.
+* **Modular Learning Structure:** UI broken down into educational modules:
+  1. The Gist of Redux
+  2. Creating the Store
+  3. Reducers, Actions & Types
+  4. Live DevTools Inspector
+
+## 📸 Previews
+
+**Interactive Action Dispatcher**  
+Test out different alert states, customize auto-dismiss timeouts, and see the exact dispatch code working under the hood.
+![Action Dispatcher & Redux Thunk](Preview1.png)
+
+**Module Navigation & Quick Testing**  
+Easily switch between Redux learning concepts and use the quick-action buttons to test state immutability and alert stacking.
+![Redux Playground Modules](Preview2.png)
+
+## 🛠️ Tech Stack
+
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **State Management:** [Redux Toolkit](https://redux-toolkit.js.org/) & `react-redux`
+* **Styling:** Custom Dark Mode UI
+* **Language:** TypeScript / JavaScript
+
+## 💻 Getting Started
+
+First, clone the repository and install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <YOUR_GITHUB_REPO_URL>
+cd my-app
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```npm run dev```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# or
 
-## Learn More
+```yarn dev```
 
-To learn more about Next.js, take a look at the following resources:
+Open ``http://localhost:3000`` with your browser to explore the Redux playground.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**app/**: Next.js App Router configuration and page routes.
 
-## Deploy on Vercel
+**store/** (or your specific folder name): Contains the Redux store setup, slices, and custom action creators.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**components/**: Reusable UI components like the Alert toast and the custom action dispatcher form.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed as a practice module for advanced global state management.
+
+**Next Steps:**
+Once you paste this into your `README.md`, make sure you drag and drop those two screenshots into your repository so the images load correctly on GitHub! Are you planning to build out any additional modules (like RTK Query) in this playground later?
