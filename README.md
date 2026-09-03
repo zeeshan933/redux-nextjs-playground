@@ -37,7 +37,7 @@ Easily switch between Redux learning concepts and use the quick-action buttons t
 First, clone the repository and install the dependencies:
 
 ```bash
-git clone <YOUR_GITHUB_REPO_URL>
+git clone https://github.com/zeeshan933/redux-nextjs-playground.git
 cd my-app
 npm install
 ```
